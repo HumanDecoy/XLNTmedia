@@ -5,7 +5,11 @@
     margin: 0;
 }
 
-body{}
+body{
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
 @media(max-width: 450px){
 .navbar {
     width: 100%;
@@ -15,18 +19,58 @@ body{}
 .navbar ul li img {
     opacity: 1 !important;   
 }
+
+.logo-img {
+    width: 40%;
+}
+
+/*For all h1*/
 .title-h1 {
     color: white;
-    font-family: "Robotor";
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3rem;
 }
+
+/*First section */
+.page-1 {
+    width: 100%;
+    background-image: url("../img/stockholm-sweden-winter-blur.jpg");
+    height: 46rem;
+}
+
+.page-1-div {
+    width: 80%;
+    height: 70%;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: 1px solid #b5b5b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Orange Dividers*/
 .orange {
-    width: 10rem;
-    height: 0.5rem;
+    width: 7rem;
+    height: 0.2rem;
     background-color: #f26522;
     margin: 0 auto;
+    margin: 2rem 0 0 0;
 }
-.page-1 {
-    background-image: url("../img/stockholm-sweden-winter-blur.jpg");
-    height: 700px;
+
+/*4 first buttons*/
+.btn {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #b5b5b5;
+    background-color: rgba(0,0,0,0.0);
+    margin: 2rem 0 0 0;
+    color: white;
 }
+
+
 }
