@@ -14,11 +14,17 @@ body {
 
 }
 
-nav {
+.navbar {
     width: 100%;
     height: auto;
-    background-color: black;
-    opacity: 50%;
+    background-color: rgba(0,0,0, 0.3);
+
+    
+}
+
+
+.navbar ul li img {
+    opacity: 1 !important;   
 }
 
 .title-h1 {
