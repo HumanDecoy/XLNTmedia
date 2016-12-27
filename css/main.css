@@ -43,7 +43,7 @@ body{
 
 .page-1-div {
     width: 80%;
-    height: 70%;
+    height: 80%;
     background-color: rgba(0,0,0,0.3);
     margin: 0 auto;
     margin-top: 2rem;
@@ -55,7 +55,7 @@ body{
 
 /*Orange Dividers*/
 .orange {
-    width: 7rem;
+    width: 6rem;
     height: 0.2rem;
     background-color: #f26522;
     margin: 0 auto;
