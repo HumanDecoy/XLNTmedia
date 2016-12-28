@@ -40,6 +40,7 @@ body{
     width: 100%;
     background-image: url("../img/stockholm-sweden-winter-blur.jpg");
     height: 46rem;
+    padding: 0 0;
 }
 
 .page-1-div {
@@ -68,7 +69,7 @@ body{
     padding: 6px 12px;
     border: 2px solid #b5b5b5;
     background-color: rgba(0,0,0,0.0);
-    margin: 1rem 0 0 0;
+    margin: 3rem 0 0 0;
     color: white;
     text-decoration: none;
 }
@@ -79,6 +80,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 35px 0;
 }
 
 .page-2-title-h1 {
@@ -99,16 +101,226 @@ body{
 
 
 .page-2-p {
-
+    margin: 2rem 0 0 0;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
 }
 
 .btn-page-2 {
-    padding: 8px 15px;
+    padding: 6px 15px;
     border: 2px solid #000000;
     background-color: rgba(0,0,0,0.0);
     margin: 1rem 0 0 0;
     color: black;
     text-decoration: none;
+}
+
+/*third section*/
+.page-3 {
+    background-color: #f2f2f2;
+    padding: 35px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-3-title-h1 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.orange-page-3 {
+    width: 6rem;
+    height: 0.2rem;
+    background-color: #f26522;
+    margin: 0 auto;
+    margin: 2rem 0 2rem 0;
+}
+
+.page-3-flex-container {
+    width: 100%;
+    min-height: 100%;
+    background-color: #2ecc71;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.page-3-flex-container > figure {
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-3-flex-container > figure > figure {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+}
+
+.flex-item {
+    margin: 20px;
+}
+
+.page-3-p {
+    margin: 2rem 0 0 0;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+}
+
+.btn-page-3 {
+    padding: 6px 15px;
+    border: 2px solid #000000;
+    background-color: rgba(0,0,0,0.0);
+    margin: 1rem 0 0 0;
+    color: black;
+    text-decoration: none;
+}
+
+/*Fourth section*/
+.page-4 {
+    padding: 35px 0;
+    width: 100%;
+    background-image: url("../img/221b.jpg");
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-div {
+    padding: 12px 107px;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.page-4-title-h1 {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.p-div {
+    width: 85%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.page-4-p {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: left;
+}
+
+.btn-page-4 {
+    padding: 8px 25px;
+    border: 2px solid #b5b5b5;
+    background-color: rgba(0,0,0,0.0);
+    margin: 1rem 0 0 0;
+    color: white;
+    text-decoration: none;
+}
+
+/*fith section*/
+.page-5 {
+    padding: 35px 0;
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-5-title-h1 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.orange-page-5 {
+    width: 6rem;
+    height: 0.2rem;
+    background-color: #f26522;
+    margin: 0 auto;
+    margin: 2rem 0 2rem 0;
+}
+
+.page-5-p {
+    margin: 1rem 0 1rem 0;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    width: 80%;
+    height: 2rem;
+    border: 2.5px solid #242424;
+    margin: 0 0 2rem 0;
+
+}
+
+.txt-style {
+    width: 80%;
+    height: 200px;
+    border: 2px solid #242424;
+}
+
+.btn-page-5 {
+    margin: 1rem 0 0 0;
+    padding: 8px 25px;
+    color: white;
+    background-color: #f26522;
+    text-decoration: none;
+}
+
+footer {
+    padding: 35px 0;
+    width: 100%;
+    height: 15rem;
+    background-color: #e71d36;
+}
+
+footer h2 {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 1rem 0 0 2rem;
+}
+ footer p {
+    color: black;
+    font-family: "Roboto";
+    font-weight: 300;
+    margin: 1rem 0 0 2rem;
+}
+
+.icon-size {
+    font-size: 90px;
+    margin: 1rem 0 0 2rem;
 }
 
 }
