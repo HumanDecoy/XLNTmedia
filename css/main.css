@@ -24,8 +24,8 @@ body{
     width: 40%;
 }
 
-/*For all h1*/
-.title-h1 {
+/*h1 on page-1*/
+.page-1-title-h1 {
     color: white;
     font-family: "Roboto";
     font-weight: 300;
@@ -64,12 +64,33 @@ body{
 
 /*4 first buttons*/
 .btn {
-    width: 120px;
-    height: 40px;
+    padding: 6px 12px;
     border: 2px solid #b5b5b5;
     background-color: rgba(0,0,0,0.0);
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
     color: white;
+    text-decoration: none;
+}
+
+.page-2 {
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-2-title-h1 {
+
+}
+
+
+.img-container {
+    margin: 2rem 0 0 0;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
 
