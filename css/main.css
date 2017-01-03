@@ -32,7 +32,7 @@ body{
   vertical-align: middle;
 }
 .navbar {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: auto;
   background-color: rgba(0,0,0, 0.3);
@@ -47,10 +47,7 @@ body{
 .logo-img {
   vertical-align: middle;
   width: 220px;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  margin-left: 0.3em;
-  margin: 0.3em, 0em, 0.3em, 0.3em; 
+  margin: 0.3em 0em 0.3em 0.3em; 
 }
 
 /*h1 on page-1*/
@@ -61,6 +58,7 @@ body{
     font-size: 2em;
     text-align: center;
     margin-top: 3rem;
+    padding: 0 0.3em 0 0.3em;
 }
 
 /*First section */
@@ -136,7 +134,9 @@ body{
     margin: 2rem 0 0 0;
     font-family: "Roboto";
     font-weight: 300;
+    font-size: 1.2rem;
     text-align: center;
+    padding: 0 1em 0 1em;
 }
 
 .btn-page-2 {
@@ -207,7 +207,9 @@ body{
     margin: 2rem 0 0 0;
     font-family: "Roboto";
     font-weight: 300;
+    font-size: 1.2rem;
     text-align: center;
+    padding: 0 1em 0 1em;
 }
 
 .btn-page-3 {
@@ -231,9 +233,10 @@ body{
 }
 
 .title-div {
-    padding: 12px 107px;
     background-color: rgba(0,0,0,0.3);
     margin: 0 auto;
+    width: 85%;
+    padding: 15px;
     margin-top: 2rem;
 }
 
@@ -258,6 +261,8 @@ body{
     font-family: "Roboto";
     font-weight: 300;
     text-align: left;
+    font-size: 1.1rem;
+    padding: 0.5em 0.5em 0 0.5em;
 }
 
 .btn-page-4 {
