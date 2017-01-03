@@ -33,9 +33,10 @@ body{
 }
 .navbar {
   position: fixed;
+  z-index:99;
   width: 100%;
   height: auto;
-  background-color: rgba(0,0,0, 0.3);
+  background-color:#212121;
 }
 .navbar ul li{
   vertical-align: middle;
@@ -70,11 +71,13 @@ body{
 }
 
 .page-1-div {
+  position: relative;
+  top:120px;
     width: 80%;
     height: 80%;
     background-color: rgba(0,0,0,0.3);
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 0rem;
     border: 1px solid #b5b5b5;
     display: flex;
     flex-direction: column;
@@ -439,3 +442,27 @@ footer h2 {
   width: 0%;
   left: 50%;
 }
+
+.box{
+  opacity:1;
+  background:red;
+  border: 2px solid black;
+  width:100%;
+  height:260px;
+  transform:translate(0px,0px);
+  transition:all 1s ease 0s;  
+}
+
+
+
+.active{
+  
+  opacity:1;
+  background:aqua;
+  border: 2px solid black;
+  width:0px;
+  height:0px;
+  transition:all 1s ease 0s;
+  transform:translate(-500px,0px);
+  }
+
