@@ -307,6 +307,9 @@ body{
     font-family: "Roboto";
     font-weight: 300;
     text-align: center;
+    font-size: 1.2rem;
+    padding: 0 1em 0 1em;
+
 }
 
 form {
@@ -331,10 +334,11 @@ form {
 }
 
 .btn-page-5 {
-    margin: 1rem 0 0 0;
-    padding: 8px 25px;
-    color: white;
+    padding: 6px 15px;
+    border: 2px solid #000000;
     background-color: #f26522;
+    margin: 1rem 0 0 0;
+    color: black;
     text-decoration: none;
     font-family: "Roboto";
     font-weight: 300;
@@ -391,7 +395,7 @@ footer h2 {
   margin: 0 auto;
   height: 9px;
   width: 100%;
-  background: #d3531a;
+  background: #f26522;
   border-radius: 9px;
   opacity: 1;
   left: 0;
