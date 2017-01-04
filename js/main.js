@@ -12,6 +12,7 @@ function buttonpress(){
 	box[0].classList.toggle("active");
 }
 
+<<<<<<< HEAD
 var slidingHeader = new SlidingHeader({
 	element: 'header',
 	class: 'scrolled'
@@ -54,3 +55,6 @@ window.smoothScroll = function(target) {
     document.getElementById("nav-icon").classList.toggle("open");}
 }
 
+=======
+
+>>>>>>> parent of 595c8c3...  Menu smooth scroll between sections and button functions

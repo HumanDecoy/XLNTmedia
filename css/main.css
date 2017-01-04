@@ -476,6 +476,7 @@ footer h2 {
   transform:translate(-900px,0px);
   }
 
+<<<<<<< HEAD
   
 .scrolled {
 	transform: translateY(-100%);
@@ -487,3 +488,5 @@ footer h2 {
   margin:0.5rem;
 }
 
+=======
+>>>>>>> parent of 595c8c3...  Menu smooth scroll between sections and button functions
