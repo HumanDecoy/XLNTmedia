@@ -12,4 +12,7 @@ function buttonpress(){
 	box[0].classList.toggle("active");
 }
 
-
+var slidingHeader = new SlidingHeader({
+	element: 'header',
+	class: 'scrolled'
+});

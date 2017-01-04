@@ -475,4 +475,7 @@ footer h2 {
   transition:all 1.5s ease 0s;
   transform:translate(-900px,0px);
   }
-
+  
+.scrolled {
+	transform: translateY(-100%);
+}
