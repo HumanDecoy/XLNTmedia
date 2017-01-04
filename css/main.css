@@ -476,3 +476,7 @@ footer h2 {
   transform:translate(-900px,0px);
   }
 
+.menuscroll{
+  height:1.5rem;
+  margin:0.5rem;
+}
