@@ -47,7 +47,7 @@ body{
 
 .logo-img {
   vertical-align: middle;
-  width: 160px;
+  width: 130px;
   margin: 0.3em 0em 0.3em 0.3em; 
 }
 
@@ -393,7 +393,7 @@ footer h2 {
   display: block;
   position: absolute;
   margin: 0 auto;
-  height: 9px;
+  height: 7px;
   width: 100%;
   background: #f26522;
   border-radius: 9px;
