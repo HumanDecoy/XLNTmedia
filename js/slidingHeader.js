@@ -77,4 +77,3 @@ SlidingHeader.prototype.slide = function(element, elementSettings) {
 
 
 
-
