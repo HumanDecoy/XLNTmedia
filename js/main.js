@@ -18,7 +18,7 @@ buttontrue=false;
 }
 function buttonScroll(){
 var button = document.getElementsByClassName("btn-1");
-return buttontrue=true;
+buttontrue=true;
 }
 
 // Smooth scroll meny till target
@@ -44,7 +44,7 @@ window.smoothScroll = function(target) {
     };
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-    if (buttontrue === false){
+    if (buttontrue == false){
     box[0].classList.toggle("active");
     document.getElementById("nav-icon").classList.toggle("open");}
 };
