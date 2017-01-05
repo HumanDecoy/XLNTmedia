@@ -13,7 +13,6 @@ body{
   color: black;
 }
 
-
 @media(min-width: 320px) and (max-width: 415px) {
 .hamburger-position{
   height: 28px;
@@ -99,6 +98,7 @@ body{
     border: 2px solid #b5b5b5;
     background-color: rgba(0,0,0,0.0);
     margin: 3rem 0 0 0;
+    font-size: 1em;
     color: white;
     text-decoration: none;
 }
@@ -180,7 +180,7 @@ body{
 .page-3-flex-container {
     width: 100%;
     min-height: 50%;
-    background-color: #2ecc71;
+    background-color: #2ec4b6;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -349,109 +349,11 @@ form {
     font-weight: 300;
 }
 
-footer {
-    padding: 35px 0;
-    width: 100%;
-    height: 15rem;
-    background-color: #e71d36;
-}
-
-footer h2 {
-    color: white;
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 1.5rem;
-    margin: 1rem 0 0 2rem;
-}
- footer p {
-    color: black;
-    font-family: "Roboto";
-    font-weight: 300;
-    margin: 1rem 0 0 2rem;
-}
-
 .icon-size {
     font-size: 90px;
     margin: 1rem 0 0 2rem;
 }
 }
-
-/*Hamburger*/
-#nav-icon{
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  width: 45px;
-  height: 45px;
-  position: relative;
-  margin: 0 auto;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-}
-
-#nav-icon span{
-  display: block;
-  position: absolute;
-  margin: 0 auto;
-  height: 5px;
-  width: 100%;
-  background: #f26522;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
-}
-
-#nav-icon span:nth-child(1) {
-  top: 0px;
-}
-
-#nav-icon span:nth-child(2),#nav-icon span:nth-child(3) {
-  top: 12px;
-}
-
-#nav-icon span:nth-child(4) {
-  top: 24px;
-}
-
-#nav-icon.open span:nth-child(1) {
-  top: 12px;
-  width: 0%;
-  left: 50%;
-}
-
-#nav-icon.open span:nth-child(2) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-#nav-icon.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-#nav-icon.open span:nth-child(4) {
-  top: 18px;
-  width: 0%;
-  left: 50%;
-}
-
 /* Css för drop down menyn mobil (box, active och menuDropdown) */
 .menuDropdownUL{
   display:flex;
