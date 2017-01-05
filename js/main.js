@@ -1,5 +1,7 @@
 var hamburger = document.getElementById("nav-icon");
 var box = document.getElementsByClassName("box");
+var datmenu = document.getElementsByClassName("menuscroll");
+
 
 hamburger.addEventListener("click", hamFunction);
 
@@ -14,11 +16,11 @@ function buttonpress(){
 
 var buttontrue=false;
 function notTrue(){
-buttontrue=false;
+    buttontrue=false;
 }
 function buttonScroll(){
-var button = document.getElementsByClassName("btn-1");
-buttontrue=true;
+    var button = document.getElementsByClassName("btn-1");
+    buttontrue=true;
 }
 
 // Smooth scroll meny till target
@@ -45,6 +47,16 @@ window.smoothScroll = function(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
     if (buttontrue == false){
-    box[0].classList.toggle("active");
-    document.getElementById("nav-icon").classList.toggle("open");}
-};
+        box[0].classList.toggle("active");
+        document.getElementById("nav-icon").classList.toggle("open");}
+    };
+
+
+
+
+
+
+
+
+
+
