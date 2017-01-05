@@ -18,7 +18,7 @@ buttontrue=false;
 }
 function buttonScroll(){
 var button = document.getElementsByClassName("btn-1");
-return buttontrue=true
+return buttontrue=true;
 }
 
 // Smooth scroll meny till target
@@ -28,7 +28,7 @@ window.smoothScroll = function(target) {
         scrollContainer = scrollContainer.parentNode;
         if (!scrollContainer) return;
         scrollContainer.scrollTop += 1;
-    } while (scrollContainer.scrollTop == 0);
+    } while (scrollContainer.scrollTop === 0);
 
     var targetY = 0;
     do { //find the top of target relatively to the container
@@ -41,10 +41,10 @@ window.smoothScroll = function(target) {
         c.scrollTop = a + (b - a) / 30 * i;
         setTimeout(function(){ scroll(c, a, b, i); }, 20);
 
-    }
+    };
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-    if (buttontrue == false){
+    if (buttontrue === false){
     box[0].classList.toggle("active");
     document.getElementById("nav-icon").classList.toggle("open");}
-}
+};
