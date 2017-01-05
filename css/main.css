@@ -577,3 +577,11 @@ li{
   list-style:none;
 }
 /* END OF SLIDSHOW */
+
+.kompIcon{
+  height: 3rem;
+}
+
+.textContainer{
+  padding: 1.5rem;
+}
