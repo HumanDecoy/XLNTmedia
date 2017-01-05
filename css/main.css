@@ -16,7 +16,7 @@ body{
 
 @media(min-width: 320px) and (max-width: 415px) {
 .hamburger-position{
-  height: 33px;
+  height: 28px;
   width: 55px;
   margin-right: 10px;
 }
