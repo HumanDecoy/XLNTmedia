@@ -1,0 +1,15 @@
+@media(min-width: 320px) and (max-width: 415px) {
+.navbar {
+  position: fixed;
+  z-index:99;
+  width: 100%;
+  height: auto;
+  background-color:#212121;
+}
+.navbar ul li{
+  vertical-align: middle;
+}
+.navbar ul li img {
+  opacity: 1 !important;   
+}
+}

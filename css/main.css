@@ -14,12 +14,6 @@ body{
 }
 
 @media(min-width: 320px) and (max-width: 415px) {
-.hamburger-position{
-  height: 28px;
-  width: 55px;
-  margin-right: 10px;
-}
-
 .flex-box{
   display: flex;
   flex-direction: row;
@@ -30,26 +24,17 @@ body{
   white-space: nowrap;
   vertical-align: middle;
 }
-.navbar {
-  position: fixed;
-  z-index:99;
-  width: 100%;
-  height: auto;
-  background-color:#212121;
-}
-.navbar ul li{
-  vertical-align: middle;
-}
-.navbar ul li img {
-  opacity: 1 !important;   
-}
-
 .logo-img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   vertical-align: middle;
   width: 130px;
   margin: 0.3em 0em 0.3em 0.3em; 
 }
-
 /*h1 on page-1*/
 .page-1-title-h1 {
     color: white;
@@ -68,7 +53,6 @@ body{
   height: 46rem;
   padding: 0 0;
 }
-
 .page-1-div {
   position: relative;
   top:120px;
@@ -82,7 +66,6 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
 /*Orange Dividers*/
 .orange-page-1 {
     width: 6rem;
@@ -91,7 +74,6 @@ body{
     margin: 0 auto;
     margin: 2rem 0 0 0;
 }
-
 /*4 first buttons*/
 .btn-page-1 {
     padding: 6px 12px;
@@ -102,7 +84,6 @@ body{
     color: white;
     text-decoration: none;
 }
-
 /*second section*/
 .page-2 {
     width: 100%;
@@ -115,7 +96,6 @@ body{
 .page-2 img {
   width: 100%;
 }
-
 .page-2-title-h1 {
     font-family: "Roboto";
     font-weight: 300;
@@ -123,7 +103,6 @@ body{
     text-align: center;
     margin-top: 3rem;
 }
-
 .orange-page-2 {
     width: 6rem;
     height: 0.2rem;
@@ -131,8 +110,6 @@ body{
     margin: 0 auto;
     margin: 2rem 0 2rem 0;
 }
-
-
 .page-2-p {
     margin: 2rem 0 0 0;
     font-family: "Roboto";
@@ -141,7 +118,6 @@ body{
     text-align: center;
     padding: 0 1em 0 1em;
 }
-
 .btn-page-2 {
     padding: 6px 15px;
     border: 2px solid #000000;
@@ -150,7 +126,6 @@ body{
     color: black;
     text-decoration: none;
 }
-
 /*third section*/
 .page-3 {
     background-color: #f2f2f2;
@@ -161,14 +136,12 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
 .page-3-title-h1 {
     font-family: "Roboto";
     font-weight: 300;
     font-size: 1.5rem;
     text-align: center;
 }
-
 .orange-page-3 {
     width: 6rem;
     height: 0.2rem;
@@ -176,7 +149,6 @@ body{
     margin: 0 auto;
     margin: 2rem 0 2rem 0;
 }
-
 .page-3-flex-container {
     width: 100%;
     min-height: 50%;
@@ -185,7 +157,6 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
 }
-
 .page-3-flex-container > figure {
     width: 50px;
     height: 100px;
@@ -195,17 +166,14 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-
 .page-3-flex-container > figure > figure {
      display: flex;
      justify-content: center;
      flex-direction: row;
 }
-
 .flex-item {
     margin: 20px;
 }
-
 .page-3-p {
     margin: 2rem 0 0 0;
     font-family: "Roboto";
@@ -214,7 +182,6 @@ body{
     text-align: center;
     padding: 0 1em 0 1em;
 }
-
 .btn-page-3 {
     padding: 6px 15px;
     border: 2px solid #000000;
@@ -223,18 +190,17 @@ body{
     color: black;
     text-decoration: none;
 }
-
 /*Fourth section*/
 .page-4 {
     padding: 35px 0;
     width: 100%;
-    background-image: url("../img/221b.jpg");
+    background-image: url("../img/doorblur.jpg");
+    background-image: center;
     height: 45rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .title-div {
     background-color: rgba(0,0,0,0.3);
     margin: 0 auto;
@@ -242,7 +208,6 @@ body{
     padding: 15px;
     margin-top: 2rem;
 }
-
 .page-4-title-h1 {
     color: white;
     font-family: "Roboto";
@@ -250,7 +215,6 @@ body{
     font-size: 1.5rem;
     text-align: center;
 }
-
 .p-div {
     width: 85%;
     height: 50%;
@@ -258,7 +222,6 @@ body{
     margin: 0 auto;
     margin-top: 2rem;
 }
-
 .page-4-p {
     color: white;
     font-family: "Roboto";
@@ -267,7 +230,6 @@ body{
     font-size: 1.1rem;
     padding: 0.5em 0.5em 0 0.5em;
 }
-
 .btn-page-4 {
     padding: 8px 25px;
     border: 2px solid #b5b5b5;
@@ -276,7 +238,6 @@ body{
     color: white;
     text-decoration: none;
 }
-
 /*fith section*/
 .page-5 {
     padding: 35px 0;
@@ -286,14 +247,12 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
 .page-5-title-h1 {
     font-family: "Roboto";
     font-weight: 300;
     font-size: 1.5rem;
     text-align: center;
 }
-
 .orange-page-5 {
     width: 6rem;
     height: 0.2rem;
@@ -301,7 +260,6 @@ body{
     margin: 0 auto;
     margin: 2rem 0 2rem 0;
 }
-
 .page-5-p {
     margin: 1rem 0 1rem 0;
     font-family: "Roboto";
@@ -311,14 +269,12 @@ body{
     padding: 0 1em 0 1em;
 
 }
-
 form {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .contact {
     width: 80%;
     height: 2rem;
@@ -327,17 +283,14 @@ form {
     padding-left:5px;
 
 }
-
 .txt-style {
     width: 80%;
     max-width: 80%;
     height:200px;
     max-height: 200px;
-
     border: 1px solid #242424;
     padding-left:5px;
 }
-
 .btn-page-5 {
     padding: 6px 15px;
     border: 2px solid #000000;
@@ -348,12 +301,11 @@ form {
     font-family: "Roboto";
     font-weight: 300;
 }
-
 .icon-size {
     font-size: 90px;
     margin: 1rem 0 0 2rem;
 }
-}
+} /*Ska allt nedan vara utanför @media?*/
 /* Css för drop down menyn mobil (box, active och menuDropdown) */
 .menuDropdownUL{
   display:flex;
@@ -373,29 +325,22 @@ form {
   transform:translate(0px,0px);
   transition:all 1s ease 0s;  
 }
-
 .active{
-  
   opacity:1;
   width:0px;
   height:0px;
   transition:all 1.5s ease 0s;
   transform:translate(-900px,0px);
   }
-
 .menuscroll{
   height:1.5rem;
   margin:0.5rem;
 }
-
 /* TEAM CSS */
 /*Class for the links in the nav on the other two html files*/
 .other-site-nav {
   text-decoration: none;
 }
-
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 450px;
@@ -403,7 +348,6 @@ form {
   margin: auto;
   max-height: 450px;
 }
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -418,18 +362,15 @@ form {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
-
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -440,7 +381,6 @@ form {
   width: 200px;
   text-align: center;
 }
-
 /* The dots/bullets/indicators */
 .dot {
   cursor:pointer;
@@ -452,11 +392,9 @@ form {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .activeTeam, .dot:hover {
   background-color: #717171;
 }
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -464,27 +402,21 @@ form {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 li{
   list-style:none;
 }
 /* END OF SLIDSHOW */
-
 .kompIcon{
   height: 3rem;
 }
-
-
 .textContainer{
   padding: 1.5rem;
 }

@@ -74,4 +74,9 @@
   width: 0%;
   left: 50%;
 }
+.hamburger-position{
+  height: 28px;
+  width: 55px;
+  margin-right: 10px;
+}
 }
