@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500');
 @media(min-width: 320px) and (max-width: 415px) {
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-	
+
 .navbar {
   position: fixed;
   z-index:99;
@@ -72,5 +74,9 @@
   vertical-align: middle;
 }
 
+/*Class to hide underscores on responsive.html and projects.html*/
+.other-site-nav {
+  text-decoration: none;
+}
 
 }
