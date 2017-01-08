@@ -1,4 +1,9 @@
 @media(min-width: 320px) and (max-width: 415px) {
+    * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 footer {
     padding: 35px 0;
     width: 100%;
@@ -19,4 +24,9 @@ footer h2 {
     font-weight: 300;
     margin: 1rem 0 0 2rem;
 }
+.icon-size {
+    font-size: 90px;
+    margin: 1rem 0 0 2rem;
+}
+
 }
