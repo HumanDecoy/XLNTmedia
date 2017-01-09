@@ -389,6 +389,12 @@ li{
   .page-2{
     height: 60rem;
   }
+  .page-2-title-h1{
+    margin-top: 6rem;
+  }
+  .orange-page-2{
+    margin: 5rem 0 5rem 0;
+  }
   .page-3{
     height: 60rem;
   }
