@@ -380,7 +380,8 @@ li{
     width: 70% !important;
   }
   .page-2 img {
-    width: 65%;
+    width: auto;
+    height: auto;
   }
 
 /*iPad media query*/
