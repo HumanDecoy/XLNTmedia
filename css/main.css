@@ -412,7 +412,7 @@ li{
 
 
   /*iPad media query*/
-  @media only screen and (device-width: 768px)
+  @media (min-width: 768px)
   { 
     /* STYLES GO HERE */
     .page-1-div {
