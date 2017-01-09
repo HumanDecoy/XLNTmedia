@@ -31,8 +31,8 @@ body{
 .page-1-div {
   position: relative;
   top:120px;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 40%;
     background-color: rgba(0,0,0,0.3);
     margin: 0 auto;
     margin-top: 0rem;
@@ -93,7 +93,7 @@ body{
     font-weight: 300;
     font-size: 1.2rem;
     text-align: center;
-    padding: 0 1em 0 1em;
+    padding: 0 5em 0 5em;
 }
 .btn-page-2 {
     padding: 6px 15px;
