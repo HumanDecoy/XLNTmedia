@@ -409,7 +409,7 @@ li{
   .orange-page-3{
     margin: 2rem 0 2rem 0;
   }
-
+}
 
   /*iPad media query*/
   @media (min-width: 768px)
@@ -428,6 +428,7 @@ li{
       flex-direction: column;
       align-items: center;
     }
+
 
 /*Orange Dividers*/
 .orange-page-1 {
