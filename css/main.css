@@ -383,6 +383,13 @@ li{
     width: auto;
     height: auto;
   }
+
+  .textContainer{
+    margin: 0 auto;
+    width: 70% !important;
+    background-color: #fafafa;
+
+  }
   .page-1{
     height: 60rem;
   }
