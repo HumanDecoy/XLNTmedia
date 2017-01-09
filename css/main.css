@@ -165,6 +165,9 @@ body{
   text-align: center;
   padding: 0 1em 0 1em;
 }
+.projectImg{
+   width:100%;
+ }
 .btn-page-3 {
   padding: 6px 15px;
   border: 2px solid #000000;
@@ -399,7 +402,7 @@ li{
  .page-1, .page-2, .page-3, .page-4, .page-5{
   height: 60rem;
 }
-<<<<<<< HEAD
+
 
 .page-2-title-h1, .page-3-title-h1{
   font-size:3rem;
@@ -412,7 +415,7 @@ li{
 .orange-page-2, .orange-page-3{
   margin: 5rem 0 5rem 0;
 }
-=======
+
 
 .page-2-title-h1, .page-3-title-h1{
   font-size:3rem;
@@ -432,7 +435,7 @@ li{
 .projectImg{
     width:auto;
   }
->>>>>>> 09b3ed719abb86e42cb4ad77af53266960543fe7
+
 
 .orange-page-3{
   margin: 2rem 0 2rem 0;
