@@ -160,6 +160,9 @@ body{
   text-align: center;
   padding: 0 1em 0 1em;
 }
+.projectImg{
+  width:100%;
+}
 .btn-page-3 {
   padding: 6px 15px;
   border: 2px solid #000000;
@@ -410,6 +413,7 @@ li{
   .orange-page-3{
     margin: 2rem 0 2rem 0;
   }
+
 }
 
 
@@ -429,7 +433,9 @@ li{
       flex-direction: column;
       align-items: center;
     }
-
+.projectImg{
+  width:auto;
+}
 
 /*Orange Dividers*/
 .orange-page-1 {
