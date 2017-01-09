@@ -381,7 +381,21 @@ li{
     width: auto;
     height: auto;
   }
-
+  .page-1{
+    height: 60rem;
+  }
+  .page-2{
+    height: 60rem;
+  }
+  .page-3{
+    height: 60rem;
+  }
+  .page-4{
+    height: 60rem;
+  }
+  .page-5{
+    height: 60rem;
+  }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  
 { 
   /* STYLES GO HERE */
