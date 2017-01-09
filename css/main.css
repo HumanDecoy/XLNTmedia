@@ -11,7 +11,7 @@ body{
   color: black;
 }
 
-@media(min-width: 320px) and (max-width: 415px) {
+
 .flex-box{
   display: flex;
   flex-direction: row;
@@ -72,7 +72,7 @@ body{
     margin: 0 auto;
     margin: 2rem 0 0 0;
 }
-/*4 first buttons*/
+/*first buttons*/
 .btn-page-1 {
     padding: 6px 12px;
     border: 2px solid #b5b5b5;
@@ -305,7 +305,6 @@ form {
     font-size: 90px;
     margin: 1rem 0 0 2rem;
 }
-} /*Ska allt nedan vara utanför @media?*/
 /* Css för drop down menyn mobil (box, active och menuDropdown) */
 .menuDropdownUL{
   display:flex;
