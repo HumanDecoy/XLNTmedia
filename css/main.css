@@ -477,27 +477,6 @@ li{
   margin-top: 5rem;
   padding: 0 0.3em 0 0.3em;
 }
-
-  /*first buttons*/
-  .btn-page-1 {
-    padding: 6px 12px;
-    border: 2px solid #b5b5b5;
-    background-color: rgba(0,0,0,0.0);
-    margin: 6rem 0 0 0;
-    font-size: 1em;
-    color: white;
-    text-decoration: none;
-  }
-
-  .page-1-title-h1 {
-    color: white;
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 2em;
-    text-align: center;
-    margin-top: 3rem;
-    padding: 0 0.3em 0 0.3em;
-  }
   
   }
 
