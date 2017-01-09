@@ -378,7 +378,8 @@ li{
     width: 70% !important;
   }
   .page-2 img {
-    width: 65%;
+    width: auto;
+    height: auto;
   }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  
