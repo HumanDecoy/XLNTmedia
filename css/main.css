@@ -132,31 +132,7 @@ body{
   font-size: 1.5rem;
   text-align: center;
 }
-.page-3-flex-container {
-  width: 100%;
-  min-height: 50%;
-  background-color: #2ec4b6;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.page-3-flex-container > figure {
-  width: 50px;
-  height: 100px;
-  background-color: red;
-  display: flex; 
-  flex-basis: calc(50% - 40px);  
-  justify-content: center;
-  flex-direction: column;
-}
-.page-3-flex-container > figure > figure {
- display: flex;
- justify-content: center;
- flex-direction: row;
-}
-.flex-item {
-  margin: 20px;
-}
+
 .page-3-p {
   margin: 2rem 0 0 0;
   font-family: "Roboto";
@@ -488,7 +464,19 @@ background-color: #fafafa;
 
 /*SECTION 3*/
 
- .projectImg{
-    width:auto;
-  }
+.page-3-title-h1 {
+  margin: 4rem 0 0 0;
+}
+
+.projectImg{
+   width:auto;
+ }
+
+.page-3-p {
+  margin: 3rem 0 0 0;
+}
+
+.btn-page-3 {
+  margin: 1.5rem 0 0 0;
+}
 }
