@@ -412,7 +412,7 @@ li{
 
 
   /*iPad media query*/
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  
+  @media only screen and (device-width: 768px)
   { 
     /* STYLES GO HERE */
     .page-1-div {
@@ -431,7 +431,7 @@ li{
 
 /*Orange Dividers*/
 .orange-page-1 {
-    margin: 5rem 0 0 0;
+    margin: 8rem 0 0 0;
 }
 /*first buttons*/
 .btn-page-1 {
