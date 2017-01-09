@@ -33,8 +33,7 @@
   list-style:none;
   color:white;
   padding-bottom:1.5rem;
-  z-index:2;
-
+  
 }
 .box{
   opacity:1;
@@ -42,7 +41,7 @@
   height:260px;
   transform:translate(0px,0px);
   transition:all 1s ease 0s;  
-  z-index:2;
+ 
 
 
 }
