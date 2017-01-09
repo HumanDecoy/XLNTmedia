@@ -92,7 +92,7 @@ body{
     padding: 35px 0;
 }
 .page-2 img {
-  width: 100%;
+  width: 65%;
   padding: 0 1em;
 }
 .page-2-title-h1 {
@@ -418,4 +418,14 @@ li{
 }
 .textContainer{
   padding: 1.5rem;
+}
+@media (max-width:1366px){
+  section {
+    margin: 0 auto;
+    width: 70% !important;
+  }
+  nav{
+    margin: 0 auto;
+    width: 70% !important;
+  }
 }
