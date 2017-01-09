@@ -430,18 +430,14 @@ li{
 
 /*Orange Dividers*/
 .orange-page-1 {
-    width: 6rem;
-    height: 0.2rem;
-    background-color: #f26522;
-    margin: 0 auto;
-    margin: 2rem 0 0 0;
+    margin: 5rem 0 0 0;
 }
 /*first buttons*/
 .btn-page-1 {
     padding: 6px 12px;
     border: 2px solid #b5b5b5;
     background-color: rgba(0,0,0,0.0);
-    margin: 3rem 0 0 0;
+    margin: 6rem 0 0 0;
     font-size: 1em;
     color: white;
     text-decoration: none;
