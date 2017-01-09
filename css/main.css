@@ -419,7 +419,7 @@ li{
 .textContainer{
   padding: 1.5rem;
 }
-@media (max-width:1366px){
+@media (min-width:1366px){
   section {
     margin: 0 auto;
     width: 70% !important;
