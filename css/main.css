@@ -170,8 +170,8 @@ body{
   padding: 0 1em 0 1em;
 }
 .projectImg{
-   width:100%;
- }
+ width:100%;
+}
 .btn-page-3 {
   padding: 6px 15px;
   border: 2px solid #000000;
@@ -437,8 +437,8 @@ li{
   margin: 2rem 0 2rem 0;
 }
 .projectImg{
-    width:auto;
-  }
+  width:auto;
+}
 
 
 .orange-page-3{
@@ -450,7 +450,11 @@ li{
 /*iPad media query*/
 @media (min-width: 768px) and (max-width: 1366px){
 
-  /* STYLES GO HERE */
+  section{
+    background-color: #fafafa;
+  }
+
+  /*SECTION 1*/
   .page-1-div {
     position: relative;
     top:120px;
@@ -464,11 +468,7 @@ li{
     flex-direction: column;
     align-items: center;
   }
-.projectImg{
-    width:auto;
-  }
-
-
+ 
   /*Orange Dividers*/
   .orange-page-1 {
    width: 8rem;
@@ -485,8 +485,48 @@ li{
   margin-top: 5rem;
   padding: 0 0.3em 0 0.3em;
 }
-section{
-background-color: #fafafa;
-} 
+
+/*SECTION 2*/
+.page-2 img {
+  width: 100%;
+  padding: 0 1em;
+}
+.page-2-title-h1 {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 0 1em;
+}
+.orange-page-2 {
+  width: 6rem;
+  height: 0.2rem;
+  background-color: #f26522;
+  margin: 0 auto;
+  margin: 2rem 0 2rem 0;
+}
+.page-2-p {
+  margin: 2rem 0 0 0;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 5em 0 5em;
+}
+.btn-page-2 {
+  padding: 6px 15px;
+  border: 2px solid #000000;
+  background-color: rgba(0,0,0,0.0);
+  margin: 1rem 0 0 0;
+  color: black;
+  text-decoration: none;
+}
+
+/*SECTION 3*/
+
+ .projectImg{
+    width:auto;
+  }
 }
 
