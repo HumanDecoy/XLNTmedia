@@ -8,6 +8,7 @@ section{
   padding: 0;
   margin: 0;
 
+
 }
 .bg-color{
   z-index:-10;
@@ -19,6 +20,8 @@ body{
   font-family: "Roboto";
   font-weight: 300;
   color: black;
+  background:black;
+
 }
 /*h1 on page-1*/
 .page-1-title-h1 {
@@ -466,5 +469,18 @@ li{
 section{
 background-color: #fafafa;
 } 
+
+/*SECTION 2*/
+
+.page-2 img {
+  width: 100%;
+  padding: 0 10%;
 }
 
+
+/*SECTION 3*/
+
+ .projectImg{
+    width:auto;
+  }
+}
