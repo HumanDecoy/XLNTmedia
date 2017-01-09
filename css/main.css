@@ -366,6 +366,7 @@ li{
   section {
     margin: 0 auto;
     width: 70% !important;
+    background-color: #fafafa;
   }
   nav{
     margin: 0 auto;

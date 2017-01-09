@@ -26,24 +26,14 @@
   padding-top:1.6rem;
   align-items:center;
   flex-direction: column;
-  animation-name:fadeMenu;
-  animation-duration: 1000;
-  animation-delay: 5000;
 }
 
-@keyframes fadeMenu{
-  from:{
-    opacity:0
-  }
-  to:{
-    opacity:1
-  }
-}
 
 .menuDropdown{
   list-style:none;
   color:white;
   padding-bottom:1.5rem;
+
 }
 .box{
   opacity:1;
@@ -52,6 +42,7 @@
   transform:translate(0px,0px);
   transition:all 1s ease 0s;  
 
+
 }
 .active{
   opacity:1;
@@ -59,8 +50,6 @@
   height:0px;
   transition:all 1.5s ease 0s;
   transform:translate(-900px,0px);
-  animation-name:fadeMenu;
-  animation-duration: 5000;
   }
 .menuscroll{
   height:1.5rem;
@@ -96,9 +85,10 @@
 .other-site-nav {
   text-decoration: none;
 }
-@media(min-width: 1366px){
-  .navbar{
-    left: 15%;
+
+@media (min-width: 1366px){
+  .navbar {
+    left:15%;
   }
 }
 
