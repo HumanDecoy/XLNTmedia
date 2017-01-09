@@ -431,6 +431,10 @@ li{
 /*iPad media query*/
 @media (min-width: 768px) and (max-width: 1366px){
 
+section{
+background-color: #fafafa;
+} 
+
   /* STYLES GO HERE */
   .page-1-div {
     position: relative;
@@ -445,10 +449,6 @@ li{
     flex-direction: column;
     align-items: center;
   }
-.projectImg{
-    width:auto;
-  }
-
 
   /*Orange Dividers*/
   .orange-page-1 {
@@ -466,9 +466,6 @@ li{
   margin-top: 5rem;
   padding: 0 0.3em 0 0.3em;
 }
-section{
-background-color: #fafafa;
-} 
 
 /*SECTION 2*/
 
