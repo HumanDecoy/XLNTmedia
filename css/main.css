@@ -92,7 +92,7 @@ body{
     padding: 35px 0;
 }
 .page-2 img {
-  width: 65%;
+  width: 100%;
   padding: 0 1em;
 }
 .page-2-title-h1 {
@@ -427,5 +427,8 @@ li{
   nav{
     margin: 0 auto;
     width: 70% !important;
+  }
+  .page-2 img {
+    width: 65%;
   }
 }
