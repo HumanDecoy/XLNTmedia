@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500');
-@media(min-width: 320px) and (max-width: 415px) {
+
 
 * {
   box-sizing: border-box;
@@ -79,4 +79,3 @@
   text-decoration: none;
 }
 
-}

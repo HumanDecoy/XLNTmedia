@@ -1,4 +1,4 @@
-@media(min-width: 320px) and (max-width: 415px) {
+
 /*Hamburger*/
 #nav-icon{
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -78,5 +78,4 @@
   height: 28px;
   width: 55px;
   margin-right: 10px;
-}
 }

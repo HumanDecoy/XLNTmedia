@@ -1,4 +1,4 @@
-@media(min-width: 320px) and (max-width: 415px) {
+
     * {
   box-sizing: border-box;
   padding: 0;
@@ -27,6 +27,4 @@ footer h2 {
 .icon-size {
     font-size: 90px;
     margin: 1rem 0 0 2rem;
-}
-
 }
