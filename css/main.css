@@ -402,6 +402,7 @@ li{
     margin-top: 5rem;
   }
   .page-2-p{
+    font-size: 1.5rem;
     margin: 5rem 0 3rem 0;
   }
   .orange-page-2{
@@ -409,6 +410,17 @@ li{
   }
   .page-3{
     height: 60rem;
+  }
+  .page-3-title-h1{
+    font-size:3rem;
+    margin-top: 5rem;
+  }
+  .page-3-p{
+    font-size: 1.5rem;
+    margin: 5rem 0 3rem 0;
+  }
+  .orange-page-3{
+    margin: 5rem 0 5rem 0;
   }
   .page-4{
     height: 60rem;
