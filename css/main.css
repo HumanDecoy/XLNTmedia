@@ -160,9 +160,6 @@ body{
   text-align: center;
   padding: 0 1em 0 1em;
 }
-.projectImg{
-  width:100%;
-}
 .btn-page-3 {
   padding: 6px 15px;
   border: 2px solid #000000;
@@ -391,74 +388,63 @@ li{
     width: 40% !important;
     background-color: #fafafa;
   }
- .dotdotdot{
+  .dotdotdot{
    margin-bottom:50px;
  }
-  .page-1, .page-2, .page-3, .page-4, .page-5{
-    height: 60rem;
-  }
+ .page-1, .page-2, .page-3, .page-4, .page-5{
+  height: 60rem;
+}
 
-  .page-2-title-h1, .page-3-title-h1{
-    font-size:3rem;
-    margin-top: 5rem;
-  }
-  .page-2-p, .page-3-p{
-    font-size: 1.5rem;
-    margin: 5rem 0 3rem 0;
-  }
-  .orange-page-2, .orange-page-3{
-    margin: 5rem 0 5rem 0;
-  }
+.page-2-title-h1, .page-3-title-h1{
+  font-size:3rem;
+  margin-top: 5rem;
+}
+.page-2-p, .page-3-p{
+  font-size: 1.5rem;
+  margin: 5rem 0 3rem 0;
+}
+.orange-page-2, .orange-page-3{
+  margin: 5rem 0 5rem 0;
+}
 
-  .orange-page-3{
-    margin: 2rem 0 2rem 0;
-  }
-
+.orange-page-3{
+  margin: 2rem 0 2rem 0;
+}
 }
 
 
-  /*iPad media query*/
-  @media (min-width: 768px){
-    /* STYLES GO HERE */
-    .page-1-div {
-      position: relative;
-      top:120px;
-      width: 80%;
-      height: 80%;
-      background-color: rgba(0,0,0,0.3);
-      margin: 0 auto;
-      margin-top: 0rem;
-      border: 1px solid #b5b5b5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-.projectImg{
-  width:auto;
-}
-
-/*Orange Dividers*/
-.orange-page-1 {
-    margin: 10rem 0 0 0;
-}
-/*first buttons*/
-.btn-page-1 {
-    padding: 6px 12px;
-    border: 2px solid #b5b5b5;
-    background-color: rgba(0,0,0,0.0);
-    margin: 6rem 0 0 0;
-    font-size: 1em;
-    color: white;
-    text-decoration: none;
-}
-
-    .page-1-title-h1 {
-      color: white;
-      font-family: "Roboto";
-      font-weight: 300;
-      font-size: 2em;
-      text-align: center;
-      margin-top: 3rem;
-      padding: 0 0.3em 0 0.3em;
-    }
+/*iPad media query*/
+@media (min-width: 768px){
+  /* STYLES GO HERE */
+  .page-1-div {
+    position: relative;
+    top:120px;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0 auto;
+    margin-top: 0rem;
+    border: 1px solid #b5b5b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+
+  /*Orange Dividers*/
+  .orange-page-1 {
+   width: 8rem;
+   margin: 4rem 0 0 0;
+ }
+ /*first buttons*/
+ .btn-page-1 {
+  padding: 6px 12px;
+  border: 2px solid #b5b5b5;
+  margin: 7rem 0 0 0;
+}
+
+.page-1-title-h1 {
+  margin-top: 5rem;
+  padding: 0 0.3em 0 0.3em;
+}
+}
