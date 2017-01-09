@@ -48,8 +48,8 @@
   opacity:1;
   width:0px;
   height:0px;
-  transition:all 1.5s ease 0s;
-  transform:translate(-900px,0px);
+  transition:all 1s ease 0s;
+  transform:translate(-2000px,0px);
   }
 .menuscroll{
   height:1.5rem;
