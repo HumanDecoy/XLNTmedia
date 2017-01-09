@@ -31,8 +31,8 @@ body{
 .page-1-div {
   position: relative;
   top:120px;
-    width: 100%;
-    height: 40%;
+    width: 80%;
+    height: 80%;
     background-color: rgba(0,0,0,0.3);
     margin: 0 auto;
     margin-top: 0rem;
@@ -374,6 +374,10 @@ li{
   }
   .page-2 img {
     width: 65%;
+  }
+  .page-1-div{
+    width: 100%;
+    height: 40%;
   }
 }
 
