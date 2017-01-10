@@ -105,14 +105,14 @@
 
     p {
         @include font-stuff-p;
-        margin: 6rem 0 0 0;
+        margin: 4rem 0 0 0;
         text-align: center;
         padding: 0 4rem;
     }
     img {
         margin: 2rem 0 0 0;
-        width: 600px;
-        height: 600px;
+        width: 30rem;
+        height: 20rem;
     }
  }
 }
