@@ -132,9 +132,9 @@ body{
   text-align: center;
 }
 .projectImg{
-   width:100%;
-   padding: 0 1em;
- }
+ width:100%;
+ padding: 0 1em;
+}
 .btn-page-3 {
   padding: 6px 15px;
   border: 2px solid #000000;
@@ -372,29 +372,29 @@ li{
   }
 
   /*h1 on page-1*/
-.page-1-title-h1 {
-  margin-top: 5rem;
-}
+  .page-1-title-h1 {
+    margin-top: 5rem;
+  }
   /*Orange Dividers*/
-.orange-page-1 {
-  margin: 3.5rem 0 0 0;
-}
-/*first buttons*/
-.btn-page-1 {
-  margin: 10rem 0 0 0;
-}
+  .orange-page-1 {
+    margin: 3.5rem 0 0 0;
+  }
+  /*first buttons*/
+  .btn-page-1 {
+    margin: 10rem 0 0 0;
+  }
   .page-2 img {
-     width: auto;
-    height: auto;
-  }
-  .textContainer{
-    margin: 0 auto;
-    width: 40% !important;
-    background-color: #fafafa;
-  }
-  .dotdotdot{
-   margin-bottom:50px;
+   width: auto;
+   height: auto;
  }
+ .textContainer{
+  margin: 0 auto;
+  width: 40% !important;
+  background-color: #fafafa;
+}
+.dotdotdot{
+ margin-bottom:50px;
+}
 .page-1, .page-2, .page-3, .page-4, .page-5{
   height: 60rem;
 }
@@ -414,17 +414,17 @@ li{
   margin: 5rem 0 5rem 0;
 }
 .projectImg{
-    width:auto;
-  }
+  width:auto;
+}
 }
 
 
 /*iPad media query*/
 @media (min-width: 768px) and (max-width: 1366px){
 
-section{
-background-color: #fafafa;
-} 
+  section{
+    background-color: #fafafa;
+  } 
   /* STYLES GO HERE */
   .page-1-div {
     position: relative;
@@ -483,8 +483,8 @@ background-color: #fafafa;
 }
 
 .projectImg{
-   width:auto;
- }
+ width:auto;
+}
 
 .page-3-p {
   margin: 3rem 0 0 0;
