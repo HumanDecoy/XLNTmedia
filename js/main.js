@@ -1,7 +1,7 @@
 var hamburger = document.getElementById("nav-icon");
 var box = document.getElementsByClassName("box");
 var datmenu = document.getElementsByClassName("menuscroll");
-
+var menuText = document.getElementsByClassName("menuDropdown");
 
 hamburger.addEventListener("click", hamFunction);
 
@@ -11,7 +11,7 @@ function hamFunction(){
 
 
 function buttonpress(){
-	box[0].classList.toggle("active");
+	box[0].classList.toggle("active");	
 }
 
 var buttontrue=false;
@@ -50,6 +50,7 @@ window.smoothScroll = function(target) {
         box[0].classList.toggle("active");
         document.getElementById("nav-icon").classList.toggle("open");}
     };
+
 
 
 
