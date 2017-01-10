@@ -54,8 +54,15 @@ window.smoothScroll = function(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
     if (buttontrue == false){
+
     	box[0].classList.toggle("active");
     	document.getElementById("nav-icon").classList.toggle("open");}
+    	if (box[0].classList=="box active"){
+		menuFix();
+	}
+	else{
+		menuFix2();
+	}
     };
 
 // IM SORRY BUT I HAD TO
