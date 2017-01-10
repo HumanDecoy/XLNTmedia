@@ -232,6 +232,7 @@ form {
   padding-top:2rem;
   margin:0px auto;
   width:100%;
+  max-width: 80rem;
 
 }
 
