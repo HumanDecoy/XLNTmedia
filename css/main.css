@@ -253,7 +253,7 @@ form {
   border: 2px solid #000000;
   background-color: #f26522;
   margin: 1rem 0 0 0;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Roboto";
   font-weight: 300;
@@ -474,5 +474,29 @@ background-color: #fafafa;
 
 .btn-page-3 {
   margin: 1.5rem 0 0 0;
+}
+
+/*SECTION 4*/
+
+/*SECTION 5*/
+.page-5-title-h1 {
+  margin: 2.5rem 0 0 0;
+}
+.orange-page-5 {
+  width: 7rem;
+  margin: 3rem 0 0 0;
+}
+.page-5-p {
+  margin: 3rem 0 0 0;
+}
+
+form {
+  width: 90%;
+  margin: 3rem 0 0 0 ;
+  
+}
+
+.btn-page-5 {
+  margin: 2rem 0 0 0;
 }
 }
