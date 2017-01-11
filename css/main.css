@@ -510,3 +510,12 @@ form {
   padding-top:2rem;
 }
 
+
+.lihidden{
+   display:inline;
+   color:white;
+   padding-right:1rem;
+   float:left;
+   padding-left:1rem;
+}
+
