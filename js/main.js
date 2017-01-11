@@ -73,11 +73,11 @@ function menuFix(){
 		setTimeout(function(){menuText[2].style.opacity="0";},130);
 		setTimeout(function(){menuText[3].style.opacity="0";},130);
 		setTimeout(function(){menuText[4].style.opacity="0";},130);
-		setTimeout(function(){menuText[0].style.opacity="1"},400);
-		setTimeout(function(){menuText[1].style.opacity="1"},400);
-		setTimeout(function(){menuText[2].style.opacity="1"},400);
-		setTimeout(function(){menuText[3].style.opacity="1"},400);
-		setTimeout(function(){menuText[4].style.opacity="1"},400);
+		setTimeout(function(){menuText[0].style.opacity="1";},400);
+		setTimeout(function(){menuText[1].style.opacity="1";},400);
+		setTimeout(function(){menuText[2].style.opacity="1";},400);
+		setTimeout(function(){menuText[3].style.opacity="1";},400);
+		setTimeout(function(){menuText[4].style.opacity="1";},400);
 	}
 	
 }
@@ -89,11 +89,11 @@ function menuFix2(){
 		setTimeout(function(){menuText[2].style.opacity="0";},0);
 		setTimeout(function(){menuText[3].style.opacity="0";},0);
 		setTimeout(function(){menuText[4].style.opacity="0";},0);
-		setTimeout(function(){menuText[0].style.opacity="1"},500);
-		setTimeout(function(){menuText[1].style.opacity="1"},500);
-		setTimeout(function(){menuText[2].style.opacity="1"},500);
-		setTimeout(function(){menuText[3].style.opacity="1"},500);
-		setTimeout(function(){menuText[4].style.opacity="1"},500);
+		setTimeout(function(){menuText[0].style.opacity="1";},500);
+		setTimeout(function(){menuText[1].style.opacity="1";},500);
+		setTimeout(function(){menuText[2].style.opacity="1";},500);
+		setTimeout(function(){menuText[3].style.opacity="1";},500);
+		setTimeout(function(){menuText[4].style.opacity="1";},500);
 	}
 	
 }
