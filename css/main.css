@@ -107,6 +107,11 @@ body{
   text-align: center;
   padding: 0 1.5rem 0 1.5rem;
 }
+
+#p-project{
+  padding-bottom:1rem;
+}
+
 .btn-page-2 {
   padding: 6px 15px;
   border: 2px solid #000000;
