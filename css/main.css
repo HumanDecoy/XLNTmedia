@@ -575,7 +575,10 @@ form {
    padding-right:1rem;
    float:left;
    padding-left:1rem;
-}
+ }
+ .lihidden a {
+  color:white;
+ }
 
 .hiddenButton{
   height:10px;
