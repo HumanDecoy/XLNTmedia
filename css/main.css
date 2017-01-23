@@ -303,6 +303,7 @@ form {
   text-decoration: none;
   font-family: "Roboto";
   font-weight: 300;
+  margin-left: 14.2rem;
 }
 .icon-size {
   font-size: 90px;
@@ -454,6 +455,11 @@ li{
 .projectImg{
   width:auto;
 }
+
+.btn-page-5 {
+  margin-left: 37rem;
+}
+
 }
 
 
@@ -560,7 +566,7 @@ form {
 }
 
 .btn-page-5 {
-  margin: 2rem 0 0 0;
+  margin: 2rem 0 0 29rem;
 }
 }
 /*SECTION TEAM*/
