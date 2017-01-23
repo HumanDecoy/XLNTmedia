@@ -113,7 +113,7 @@ body{
   margin: 0 auto;
   margin: 2rem 0 2rem 0;
 }
-.page-2-p, .page-3-p, .page-4-p, .page-5-p{
+.page-2-p, .page-3-p, .page-5-p{
   margin: 2rem 0 0 0;
   font-family: "Roboto";
   font-weight: 300;
@@ -207,6 +207,14 @@ body{
   background-color: rgba(0,0,0,0.3);
   margin: 0 auto;
   margin-top: 2rem;
+}
+.page-4-p {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.1rem;
+  padding: 0.5em 0.5em 0 0.5em;
 }
 .btn-page-4 {
   padding: 8px 25px;
@@ -558,7 +566,7 @@ form {
 }
 
 .btn-page-5 {
-  margin: 2rem 0 0 29rem;
+  margin: 2rem 0 0 30rem;
 }
 }
 /*SECTION TEAM*/

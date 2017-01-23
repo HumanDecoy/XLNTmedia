@@ -1,33 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500');
-@mixin flex-center() {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-@mixin font-stuff-h1() {
-	font-family: "Roboto";
-    font-weight: 300;
-    font-size: 1.5rem;
-}
-
-@mixin font-stuff-p() {
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-@mixin font-stuff-h1-desktop() {
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 2rem;
-}
-
-@mixin font-stuff-p-desktop() {
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 1.3rem;
-}
+@import "mixins";
 
 * {
     box-sizing: border-box;
