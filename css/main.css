@@ -152,6 +152,7 @@ body{
           align-items: center;
 }
 .page-3-title-h1 {
+  margin: 3rem 0 0 0;
   font-family: "Roboto";
   font-weight: 300;
   font-size: 1.5rem;
@@ -233,6 +234,7 @@ body{
           align-items: center;
 }
 .page-5-title-h1 {
+  margin: 3rem 0 0 0;
   font-family: "Roboto";
   font-weight: 300;
   font-size: 1.5rem;
@@ -565,7 +567,10 @@ form {
    padding-right:1rem;
    float:left;
    padding-left:1rem;
-}
+ }
+ .lihidden a {
+  color:white;
+ }
 
 .hiddenButton{
   height:10px;
@@ -576,4 +581,10 @@ form {
 #teamorange{
   margin:0 auto;
   margin-top:2rem;
+}
+
+.nojsDIV{
+  text-align: center;
+  margin-top:2rem;
+  background-color:red;
 }

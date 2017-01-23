@@ -14,7 +14,7 @@
 
 <body>
 	<div class="bg-color">
-		<div class="navdiv">
+		<div class="navdiv" id="nojsHem">
 			<nav class="navbar">
 				<ul class="flex-box">
 					<li class="test">
@@ -22,12 +22,13 @@
 					</li>
 					<noscript>
 						<ul class="lihidden">
-							<li class="lihidden">Hem</li>
-							<li class="lihidden">Tidigare Projekt</li>
-							<li class="lihidden">Responsiv Design</li>
-							<li class="lihidden">Kontakta Oss</li>
+							<li class="lihidden"><a href="#nojsHem">Hem</a></li>
+							<li class="lihidden"><a href="#nojsResp">Responsiv Design</a></li>
+							<li class="lihidden"><a href="#nojsProj">Tidigare Projekt</a></li>
+							<li class="lihidden"><a href="#nojsKont">Kontakta Oss</a></li>
 						</ul>
-					</noscript>
+						</noscript>
+					
 					
 					<li class="hamburger-position">
 						<div id="nav-icon" onclick="buttonpress()">
@@ -62,12 +63,19 @@
 			<div class="page-1-div">
 				<h1 class="page-1-title-h1">En ny webbyrå med fokus på frontend och responsiv design</h1>
 				<div class="orange-page-1"></div>
+					<noscript>
+					<div class="nojsDIV">
+					<h2> Hej ! Det verkar som att du inte har Javascript aktiverat.</h2>
+					<h2> Du kommer kunna komma åt den viktigaste informationen på sidan men alla funktioner kommer inte att fungera. </h2>
+					</div>
+					</noscript>
+
 				<button class="btn-page-1" onclick="buttonScroll(), smoothScroll(document.getElementById('kontakt'))">
 				<noscript><a class="hiddenButton"  href="http://google.com"><div class="hiddenButton" ></div></a></noscript>Kontakta oss</button>
 			</div>
 		</section>
 		<div id="responsiv"></div>
-		<section class="page-2">
+		<section class="page-2" id="nojsResp">
 
 			<h1 class="page-2-title-h1" >Vi är experter på responsiv design</h1>
 			<div class="orange-page-2"></div>
@@ -80,7 +88,7 @@
 			<a href="views/responsive.html" class="btn-page-2">Läs mer</a>
 		</section>
 		<div id="tidigare"></div>
-		<section class="page-3">
+		<section class="page-3" id="nojsProj">
 			<h1 class="page-3-title-h1">Smakprov på våra projekt</h1>
 			<div class="orange-page-3"></div>
 			<img class= "projectImg" src="img/webDevelopment.png" alt="html5-css-JS-laptop">
@@ -101,7 +109,7 @@
 			<a href="views/team.html" class="btn-page-4">Läs mer!</a>
 			</section>
 			<div id="kontakt"></div>
-			<section class="page-5">
+			<section class="page-5" id="nojsKont">
 				<h1 class="page-5-title-h1">Kontakta oss</h1>
 				<div class="orange-page-5"></div>
 				<p class="page-5-p">
