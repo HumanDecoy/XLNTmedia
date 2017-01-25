@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500");
+/*FOOTER START*/
+/*FOOTER END*/
+/*RESPONSIVE START*/
+/*RESPONIVE END*/
 /*MAIN START*/
 /*MAIN END*/
 section {
@@ -228,11 +232,11 @@ body {
 }
 
 .page-4-p {
-  color: white;
+  color: #000000;
   font-family: "Roboto";
   font-weight: 300;
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 0.5em 0.5em 0 0.5em;
 }
 
@@ -411,6 +415,20 @@ form {
 
   .btn-page-5 {
     margin-left: 37rem;
+  }
+
+  .teamPic {
+    width: 100%;
+    max-width: 600px;
+    max-height: 286px;
+    margin: 2rem auto;
+    left: 50%;
+  }
+
+  .page-4-p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 16rem 0 16rem;
   }
 }
 /*iPad media query*/
