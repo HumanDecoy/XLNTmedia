@@ -307,9 +307,7 @@ form {
   width: 40% !important;
   background-color: #fafafa;
 }
-.dotdotdot{
- margin-bottom:50px;
-}
+
 .page-1, .page-2, .page-3, .page-4, .page-5{
   height: 60rem;
 }
@@ -425,6 +423,20 @@ form {
 }
 
 /*SECTION 4*/
+
+.teamPic {
+  width: 100%;
+  max-width: 600px;
+  max-height: 286px;
+  margin: 2rem auto;
+  left: 50%;
+}
+
+.page-4-p {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0 10rem 0 10rem;
+}
 
 /*SECTION 5*/
 .page-5-title-h1 {

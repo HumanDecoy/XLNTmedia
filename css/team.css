@@ -1,5 +1,6 @@
 /* Slideshow container */
 .slideshow-container {
+  margin-top: 6rem;
   max-width: 450px;
   position: relative;
   margin: auto;
@@ -77,5 +78,24 @@ li{
   height: 3rem;
 }
 .textContainer{
+  margin-top: 6rem;
   padding: 1.5rem;
+}
+
+.team {
+  height: 80rem;
+}
+
+.team-h1{
+  font-family: "Roboto"; 
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 7rem;
+  padding: 0 1em;
+}
+
+.dotdotdot{
+  margin-top: 3rem;
+ margin-bottom:50px;
 }
