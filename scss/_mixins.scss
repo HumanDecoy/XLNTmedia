@@ -77,5 +77,8 @@
   background-color: #fafafa;
 }
 
+@mixin links() {
+    cursor: pointer;
+}
 
 /*MAIN END*/

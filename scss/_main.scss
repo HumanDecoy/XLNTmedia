@@ -267,6 +267,18 @@ form {
   margin-left: 14.2rem;
 }
 
+button, a {
+  @include links;
+}
+
+input {
+  @include links;
+}
+
+li {
+  @include links;
+}
+
 /*Desktop media query*/
 @media (min-width:1366px){
   section {
